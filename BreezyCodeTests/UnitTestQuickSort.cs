@@ -11,7 +11,7 @@ namespace BreezyCode.Tests
     public class UnitTestQuickSort
     {
         private static readonly int _testCases = 4;
-        private static readonly int _rangeSize = 40000000; // 70000000;
+        private static readonly int _rangeSize = 30000000; // 40000000;
         private static List<int[]> _arrays;
         private static int[] _arraySysSorted;
 

@@ -93,6 +93,7 @@ namespace BreezyCode.Classes
 
                 // initial case, parallelism # depends on Environment.ProcessorCount
                 if (parallelCount == -99)
+                    //parallelCount = (int) Math.Log(Environment.ProcessorCount, 2) + 4;
                     parallelCount = Environment.ProcessorCount;
 
                 // Check if contiune to Parallel or fallback to Sequential, if used up Processors

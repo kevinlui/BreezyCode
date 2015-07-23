@@ -51,6 +51,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="UnitTestArraySumCombo.cs" />
     <Compile Include="UnitTestQuickSort.cs" />
     <Compile Include="UnitTestInvertBST.cs" />
     <Compile Include="UnitTestBST2DblLinkedList.cs" />
